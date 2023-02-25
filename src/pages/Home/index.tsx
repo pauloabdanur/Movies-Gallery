@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import MovieCard from '../../components/MovieCard';
-import { IMovie } from '../../types/Movie';
+import { IMovie } from '../../types/IMovie';
 import { Container, MoviesContainer, Title } from './styles';
 
 const moviesURL = process.env.REACT_APP_API as string;

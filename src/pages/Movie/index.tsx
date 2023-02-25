@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 import MovieCard from '../../components/MovieCard';
-import { IMovie } from '../../types/Movie';
+import { IMovie } from '../../types/IMovie';
 import {
   Container,
   Description,

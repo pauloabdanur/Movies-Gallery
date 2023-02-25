@@ -6,7 +6,7 @@ import {
   MyLink,
   Rating,
 } from './styles';
-import { IMovie } from '../../types/Movie';
+import { IMovie } from '../../types/IMovie';
 
 const imageURL = process.env.REACT_APP_IMG as string;
 

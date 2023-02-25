@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import MovieCard from '../../components/MovieCard';
-import { IMovie } from '../../types/Movie';
+import { IMovie } from '../../types/IMovie';
 import { Container, Title, MoviesContainer, QueryText } from './styles';
 
 const searchURL = process.env.REACT_APP_SEARCH as string;
