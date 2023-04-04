@@ -3,8 +3,8 @@ import MovieCard from '../../components/MovieCard';
 import { IMovie } from '../../types/IMovie';
 import { Container, MoviesContainer, Title } from './styles';
 
-const moviesURL = process.env.REACT_APP_API as string;
-const apiKey = process.env.REACT_APP_API_KEY as string;
+const moviesURL = 'https://api.themoviedb.org/3/movie/';
+const apiKey = 'api_key=f3f872ee96c337d1b0a4354e41a266ed';
 
 const Home = () => {
   const [topMovies, setTopMovies] = useState<IMovie[]>([]);
@@ -18,6 +18,7 @@ const Home = () => {
 
   useEffect(() => {
     const topRatedURL = `${moviesURL}top_rated?${apiKey}`;
+    console.log(topRatedURL);
 
     getTopRatedMovies(topRatedURL);
   }, []);

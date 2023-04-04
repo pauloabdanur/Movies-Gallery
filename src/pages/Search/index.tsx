@@ -4,8 +4,8 @@ import MovieCard from '../../components/MovieCard';
 import { IMovie } from '../../types/IMovie';
 import { Container, Title, MoviesContainer, QueryText } from './styles';
 
-const searchURL = process.env.REACT_APP_SEARCH as string;
-const apiKey = process.env.REACT_APP_API_KEY as string;
+const searchURL = 'https://api.themoviedb.org/3/search/movie';
+const apiKey = 'api_key=f3f872ee96c337d1b0a4354e41a266ed';
 
 const Search = () => {
   const [searchParams] = useSearchParams();

@@ -8,7 +8,7 @@ import {
 } from './styles';
 import { IMovie } from '../../types/IMovie';
 
-const imageURL = process.env.REACT_APP_IMG as string;
+const imageURL = 'https://image.tmdb.org/t/p/w500/';
 
 type Props = {
   movie: IMovie;

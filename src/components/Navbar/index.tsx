@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <Container>
       <Title>
-        <Link to="/">
+        <Link to="/Movies-Gallery">
           <BiCameraMovie /> Movies Lib
         </Link>
       </Title>

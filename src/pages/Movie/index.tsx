@@ -16,8 +16,8 @@ import {
   Text,
 } from './styles';
 
-const moviesURL = process.env.REACT_APP_API as string;
-const apiKey = process.env.REACT_APP_API_KEY as string;
+const moviesURL = 'https://api.themoviedb.org/3/movie/';
+const apiKey = 'api_key=f3f872ee96c337d1b0a4354e41a266ed';
 
 const Movie = () => {
   const { id } = useParams();
