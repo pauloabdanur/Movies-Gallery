@@ -41,7 +41,7 @@ const Movie = () => {
     const movieURL = `${moviesURL}${id}?${apiKey}`;
 
     getMovie(movieURL);
-  }, []);
+  }, [id]);
 
   return (
     <Container>
