@@ -1,5 +1,6 @@
 {
   "name": "movies-lib",
+  "homepage": "https://pauloabdanur.github.io/Movies-Gallery/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
